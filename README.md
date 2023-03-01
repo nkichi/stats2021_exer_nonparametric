@@ -1,4 +1,6 @@
-# Chi-Square Tests Exercise
+# Data Manipulation in Jamovi Exercise
+
+A video demonstration of this exercise can be seen at: https://youtu.be/sHBA0zr_DRo
 
 ## Summary of steps to complete
 
@@ -14,10 +16,6 @@
 
 ## Follow along with this tutorial
 
-### Data sets
-
-This assignment is based on an example in Andy Field's text Discoverint Statistics Using IBM SPSS Statistics 5th Edition. [Amazon link](https://www.amazon.com/Discovering-Statistics-Using-IBM-SPSS/dp/1526419521/ref=sr_1_4?dchild=1&keywords=discovering+statistics&qid=1602801958&sr=8-4) Sage makes the datasets used in that text available at https://edge.sagepub.com/field5e/student-resources/datasets . A zip file with the datasets can be downloaded at http://study.sagepub.com/sites/default/files/spss_files_0.zip .
-
 ### Data Cleaning and Exploration
 
 Data needs to be examined and any problems fixed before analysis can be done. This process of checking data before proceeding with a statistical analysis is often called data cleaning. The steps for data cleaning outlined in this tutorial are discussed in the following videos. You don't need to watch the videos to complete this assignment, but I list them here should you have interest in listening to the original lectures.
@@ -26,7 +24,7 @@ Data needs to be examined and any problems fixed before analysis can be done. Th
 * Data screening 2 missing (37 min) (optional): https://www.youtube.com/watch?v=9a3CW8fKA3k&t=0s&index=147&list=PLw93TUuxrFAbWrTsvaDsn7Y32l8LHJJXn
 * Data screening 3 outliers (22 min) (optional): https://www.youtube.com/watch?v=zL66kiX5VZg&list=PLw93TUuxrFAbWrTsvaDsn7Y32l8LHJJXn&index=148&t=0s
 
-In statistics, we focus on four areas. (Summarized from the videos above.)
+In statistics, we focus on four areas.
 
 1. Data accuracy
     + make sure data types are correct
@@ -41,9 +39,16 @@ In statistics, we focus on four areas. (Summarized from the videos above.)
 3. outliers
 4. Statistical assumptions
 
-### Chi-Square Tests
+### Data Manipulation
 
-Chi-square tests are used with categorical data. This assignment illustrates steps to perform the Chi-square Goodness of Fit (1 categorical variable) and the Chi-square Test of Independence also known as the Chi-square Test of Association (2 categorical variables). Chi-square tests belong to a family of tests known as nonparametric tests. Nonparametric tests have fewer distributional assumptions than other statistical tests.
+This assignment shows some more steps to take to get data ready for analysis in both Jamovi and RStudio.
+
+* Calculating descriptive statistics for variables.
+* Using existing variables to compute new variables.
+* Recoding variables (reverse scoring)
+* Scoring instruments.
+* Calculating z-scores.
+* Getting R code from Jamovi output
 
 ### Jamovi part
 
